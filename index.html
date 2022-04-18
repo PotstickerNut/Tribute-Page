@@ -69,9 +69,6 @@
         </div>
       </section>
       <section>
-        <img src="" alt="" />
-      </section>
-      <section>
         <p>
           To learn more about labrador retrievers
           <a
@@ -81,22 +78,43 @@
           >. Otherwise, please enjoy the pictures below.
         </p>
       </section>
-      <section class="dogSec">
-        <img
-          class="dogImages"
-          src="images/Doberman-Pinscher.jpg"
-          alt="doberman pinscher puppy"
-        />
-        <img
-          class="dogImages"
-          src="images/husky.jpg"
-          alt="goofy husky smiling"
-        />
-        <img
-          class="dogImages"
-          src="images/Smiling-Retriever.jpg"
-          alt="smiling golden retriever"
-        />
+      <section class="sliderContainer">
+        <div class="slider">
+          <div class="slides">
+            <figure id="slide1" class="slide">
+              <img
+                class="dogImages"
+                src="images/Doberman-Pinscher.jpg"
+                alt="doberman pinscher puppy"
+              />
+              <a class="slidePrev" href="#slide3" title="Prev"></a>
+              <a class="slideNext" href="#slide2" title="Next"></a>
+            </figure>
+            <figure id="slide2" class="slide">
+              <img
+                class="dogImages"
+                src="images/husky.jpg"
+                alt="goofy husky smiling"
+              />
+              <a class="slidePrev" href="#slide1" title="Prev"></a>
+              <a class="slideNext" href="#slide3" title="Next"></a>
+            </figure>
+            <figure id="slide3" class="slide">
+              <img
+                class="dogImages"
+                src="images/Smiling-Retriever.jpg"
+                alt="smiling golden retriever"
+              />
+              <a class="slidePrev" href="#slide2" title="Prev"></a>
+              <a class="slideNext" href="#slide1" title="Next"></a>
+            </figure>
+          </div>
+          <div class="sliderNav">
+            <a class="sliderNavlink" href="#slide1"></a>
+            <a class="sliderNavlink" href="#slide2"></a>
+            <a class="sliderNavlink" href="#slide3"></a>
+          </div>
+        </div>
       </section>
     </main>
   </body>
