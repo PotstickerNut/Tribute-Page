@@ -155,8 +155,8 @@ a.slideNext,
 
 .slider::before,
 .slider::after,
-.slide__prev,
-.slide__next {
+.slidePrev,
+.slideNext {
   position: absolute;
   top: 48%;
   width: 35px;
